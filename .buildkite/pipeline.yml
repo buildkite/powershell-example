@@ -1,6 +1,8 @@
+
 steps:
   - label: ":hammer: Example Script"
-    command: "script.ps1"
+    command: "pwsh script.ps1"
+    plugins:
+      - docker#v3.8.0:
+          image: "mcr.microsoft.com/powershell:7.4-ubuntu-22.04"
     artifact_paths: "artifacts/*"
-    agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
