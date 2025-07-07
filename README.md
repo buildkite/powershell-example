@@ -29,4 +29,4 @@ PowerShell can be used for many build, deploy, or scripting tasks across Windows
 
 ## License
 
-See [LICENSE](LICENSE) (MIT)
+See [LICENSE.md](LICENSE.md) (MIT)
