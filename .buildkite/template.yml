@@ -4,7 +4,6 @@ emoji: ":powershell:"
 color: "#EFF9FF"
 languages:
   - "PowerShell"
-  - "YAML"
 steps:
   - label: ":pipeline:"
     command: "buildkite-agent pipeline upload"
